@@ -5,5 +5,11 @@ class A with ChangeNotifier{
   void changeValue(){
     value=value+1;
     notifyListeners();
+
+  }
+  void lessthan(){
+    value=value-1;
+    notifyListeners();
   }
 }
+
